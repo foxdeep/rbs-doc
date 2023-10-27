@@ -1,0 +1,78 @@
+---
+sidebar_position: 8
+id: user-and-user-permission
+title: User and Permission
+tags:
+  - Getting started
+  - Admin
+---
+
+import BrowserWindow from '@site/src/components/BrowserWindow'
+
+export const url = 'https://10.62.172.106/rbs-admin/user-management'
+
+<BrowserWindow url={url}>
+
+![snapshot](../assets/admin/user-management.png)
+
+</BrowserWindow>
+
+# Description
+
+To use RBS Admin Portal, users are required to verify their email first. Once verified, users can access their information by clicking on the avatar located on the upper-right corner of the window. This will display a popover menu showing the user's username, role, and email. In addition, users can find options to manage their own information as well as user management below the menu.
+
+## Current user
+
+The "User Info" dialog box allows users to modify their personal information such as:
+
+- User name
+- Email address
+- Password
+
+<BrowserWindow url={url}>
+
+![snapshot](../assets/admin/user-management-user.png)
+
+</BrowserWindow>
+
+<BrowserWindow url={url}>
+
+![snapshot](../assets/admin/user-management-user-edit.png)
+
+</BrowserWindow>
+
+## User Management
+
+The "User Management" page provides users with the ability to add new users as either admins or regular users.
+
+Admins have full authorization to perform CRUD (Create, Read, Update, Delete) operations on various functionalities.
+
+Regular users only have authorization to read information.
+
+<BrowserWindow url={url}>
+
+![snapshot](../assets/admin/user-management-users.png)
+
+</BrowserWindow>
+
+<BrowserWindow url={url}>
+
+![snapshot](../assets/admin/user-management-users-crud.png)
+
+</BrowserWindow>
+
+### Create
+
+To create a user, the following field is required:
+
+- User name
+- Email address
+- Password
+
+### Edit
+
+When the user clicks on "Edit" in the "More" menu, the editable information of the relevant user will be displayed in a dialog box. All of the fields presented can be edited.
+
+### Delete
+
+When the user clicks on "Delete" in the "More" menu, a warning dialog box will be displayed to double-check and alert the user that the delete action is irreversible.
