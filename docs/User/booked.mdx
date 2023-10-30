@@ -1,0 +1,40 @@
+---
+sidebar_position: 5
+id: booked
+title: Booked
+tags:
+  - Getting started
+  - User
+---
+
+import BrowserWindow from '@site/src/components/BrowserWindow'
+
+export const url = 'https://10.62.172.106/rbs'
+
+<BrowserWindow url={url}>
+
+![snapshot](../assets/user/booked.png)
+
+</BrowserWindow>
+
+After successfully completing your booking, you'll be directed to the 'Booked Page,' where you'll receive confirmation of your reservation. Here, you have a few options:
+
+- **✅ Success** or **❌ Failure** Confirmation:
+  The 'Booked Page' will clearly indicate whether your booking was successful or if there was a failure. Success means your reservation has been confirmed and is ready for activate.
+
+---
+
+Options for <span class='site-user'>Site Members</span>:
+
+If you're a site member, you'll see the following three buttons on the window:
+
+- **Activate Process**: This option is available if your booking requires an activation. Clicking `Activate Process` initiates any necessary steps to finalize your booking process.
+
+- **My Orders**: Clicking `My Orders` will direct you to your [Dashboard](../user/dashboard), specifically the [My Orders](../user/dashboard/my-orders) section. Here, you can review and manage all of your bookings, ensuring you have easy access to your booking history and status.
+
+- **Back To Site**: If you want to continue exploring the site or view more resources, you can return to the site's main page by clicking `Back To Site`.
+
+---
+
+Options for <span class='guest'>Guests</span>:
+If you've booked as a guest, you **_won't_** see the `Activate Process` button on the window. Instead, please check your <mark>email</mark> for a message containing a link to activate the booking process. This link will guide you through any necessary steps to finalize your guest booking.
