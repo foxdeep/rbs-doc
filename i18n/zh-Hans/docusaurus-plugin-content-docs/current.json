@@ -4,7 +4,7 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.User": {
-    "message": "使用者",
+    "message": "顾客（员工）",
     "description": "The label for category User in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Dashboard": {
