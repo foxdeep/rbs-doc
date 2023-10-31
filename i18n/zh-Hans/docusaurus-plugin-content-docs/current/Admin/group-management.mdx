@@ -1,0 +1,62 @@
+---
+sidebar_position: 5
+id: group-management
+title: 分类管理
+tags:
+  - 开始使用
+  - 管理员
+---
+
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
+
+import BrowserWindow from '@site/src/components/BrowserWindow'
+
+export const url = 'https://10.62.172.106/rbs-admin/group-management'
+
+<BrowserWindow url={url}>
+
+![snapshot](../assets/admin/group-management-approval.png)
+
+</BrowserWindow>
+
+RBS 管理员后台中的分类管理部分是组织和配置分类的中心。此功能使管理员能够有效地建立、读取、更新和删除（CRUD）分类。
+
+---
+
+## 功能
+
+<Tabs>
+  <TabItem value="resource" label="资源">
+
+🚧 开发中...
+
+  </TabItem>
+  <TabItem value="approval" label="签核" default>
+
+  <BrowserWindow url={url}>
+
+![snapshot](../assets/admin/group-management-approval.png)
+
+</BrowserWindow>
+
+- ➕ 创建:
+
+  管理员可以在「分类管理」部分轻松建立新分类。这些分类是组织**管理员**和**客户**的一种方式，以简化资源签核。建立分类时，管理员可以指定分类名称、描述和关联成员。这些分类在资源签核过程中发挥关键作用，确保合适的人员参与决策。
+
+- 🖊️ 编辑:
+
+  建立分类后，管理员可以有效地管理它们。这包括查看现有分类的详细资讯和成员，这对于了解每个分类的组成非常有用。管理员还可以更新分类详细资讯或新增/删除成员，从而实现适应性并确保分类符合组织的当前要求。
+
+- ❌ 删除:
+
+  除了建立和管理分类之外，管理员还可以在不再需要时删除分类。此功能可确保分类清单保持组织良好且整洁。删除分类后，会将其从系统中删除，从而简化分类管理流程。
+
+</TabItem>
+
+  <TabItem value="executer" label="经办">
+
+🚧 开发中...
+
+  </TabItem>
+</Tabs>

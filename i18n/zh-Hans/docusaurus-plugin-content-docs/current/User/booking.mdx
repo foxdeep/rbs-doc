@@ -1,0 +1,82 @@
+---
+sidebar_position: 4
+id: booking
+title: 预定资源
+tags:
+  - 开始使用
+  - 使用者
+---
+
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
+
+import BrowserWindow from '@site/src/components/BrowserWindow'
+
+export const url = 'https://10.62.172.106/rbs'
+
+<BrowserWindow url={url}>
+
+![snapshot](../assets/user/booking.png)
+
+</BrowserWindow>
+
+选择资源后，您将被引导至预订页面，您可以在其中轻松预订您选择的资源。此页面分为两个关键部分：
+
+---
+
+- 🍎 **品项清单**
+
+  在第一部分「品项清单」中，您可以查看与资源关联的可用品项。您可以从清单中选择一项，确保您选择预订所需的特定组件。我们简化 了专案选择的过程，使您可以轻松指定活动所需的确切设备或资源。
+
+---
+
+- ℹ️ **讯息区块**
+
+  第二部分「讯息区块」将引导您分三个步骤完成预订流程（**_如果需要签核则为四个步骤_**）：
+
+<Tabs>
+  <TabItem value="order" label="订单讯息" default>
+
+<BrowserWindow url={url}>
+
+![snapshot](../assets/user/booking-order.png)
+
+</BrowserWindow>
+
+在此步骤中，您将选择预订的日期、时间和数量。此步骤为您的预订奠定基础，确保您指定所需资源的时间和数量。
+
+  </TabItem>
+  <TabItem value="reserve" label="预定信息">
+
+  <BrowserWindow url={url}>
+
+![snapshot](../assets/user/booking-reserve.png)
+
+</BrowserWindow>
+
+透过「预订资讯」步骤，您可以选择作为<span class='site-user'>站点会员</span>（如果已登入）或<span class='guest'>访客</span>进行预订 。
+
+  </TabItem>
+    <TabItem value="confirm" label="确认订单">
+
+<BrowserWindow url={url}>
+
+![snapshot](../assets/user/booking-confirm.png)
+
+</BrowserWindow>
+
+此步骤是为了确认您的预订。它允许您检查您的选择并确保所有详细资讯都是准确的。这是确认预订之前的最后一步。
+
+  </TabItem>
+    <TabItem value="process" label="流程信息（可选）">
+
+<BrowserWindow url={url}>
+
+![snapshot](../assets/user/booking-process.png)
+
+</BrowserWindow>
+
+如果您的预订需要签核，您会在最后找到「流程信息」步骤。在此步骤中，您可以选择预订的签核人，确保您的要求得到必要的审核和授权。
+
+  </TabItem>
+</Tabs>
