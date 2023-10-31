@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "下一個",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.User": {
+    "message": "使用者",
+    "description": "The label for category User in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Dashboard": {
+    "message": "後台",
+    "description": "The label for category Dashboard in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Admin": {
+    "message": "管理員",
+    "description": "The label for category Admin in sidebar tutorialSidebar"
+  }
+}
