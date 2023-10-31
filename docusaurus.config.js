@@ -88,6 +88,11 @@ const config = {
           // },
         ],
       },
+      algolia: {
+        appId: 'NB4WP3UOXB',
+        apiKey: '1d65e99f11fe9265bb02fa3241866bef',
+        indexName: 'rbs-algolia',
+      },
       footer: {
         style: 'dark',
         links: [
