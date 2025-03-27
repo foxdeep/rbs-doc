@@ -14,5 +14,9 @@
   "sidebar.tutorialSidebar.category.Admin": {
     "message": "管理員",
     "description": "The label for category Admin in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Resource Management": {
+    "message": "資源管理",
+    "description": "The label for category Resource Management in sidebar tutorialSidebar"
   }
 }

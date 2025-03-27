@@ -1,0 +1,64 @@
+---
+sidebar_position: 7
+id: settings
+title: 設定
+tags:
+  - 開始使用
+  - 管理員
+---
+
+import BrowserWindow from '@site/src/components/BrowserWindow'
+
+export const url = 'https://rbs.ces.myfiinet.com/rbs-admin/customer-management'
+
+**設定**頁面允許管理員配置系統的各個方面。該頁面分為三個標籤頁：
+
+### 一般
+
+<BrowserWindow url={url}>
+
+![snapshot](/assets/admin/settings-general.png)
+
+</BrowserWindow>
+
+此標籤頁允許您配置系統的基本詳細信息，包括：
+
+- **ID**：系統的唯一標識符。
+- **名稱**：網站或組織的名稱。
+- **描述**：網站的簡要描述。
+- **貨幣**：交易使用的預設貨幣。
+- **公開搜尋**：啟用或禁用網站的公開搜尋功能。
+- **加入申請**：啟用或禁用用戶申請流程。
+- **標誌**：網站上顯示的標誌。
+
+### 自訂顧客註冊資料
+
+<BrowserWindow url={url}>
+
+![snapshot](/assets/admin/settings-custom.png)
+
+</BrowserWindow>
+
+此標籤頁允許您管理客戶註冊流程。您可以：
+
+- 向註冊表單添加自訂欄位以收集其他資訊。
+
+### 資源擴展項目
+
+<BrowserWindow url={url}>
+
+![snapshot](/assets/admin/settings-extension.png)
+
+</BrowserWindow>
+
+此標籤頁提供管理和擴展系統資源的工具。主要功能包括：
+
+- 配置額外的資源設置以滿足特定的組織需求。
+
+### 操作
+
+所有標籤頁均可使用以下操作：
+
+- **套用**：保存當前設定。
+
+> **注意**：請確保在套用更改之前檢查所有更改，以避免配置錯誤。

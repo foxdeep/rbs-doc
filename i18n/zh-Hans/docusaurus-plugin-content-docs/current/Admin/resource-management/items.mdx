@@ -1,0 +1,70 @@
+---
+sidebar_position: 2
+id: items
+title: 品项
+tags:
+  - 开始使用
+  - 管理员
+---
+
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
+
+import BrowserWindow from '@site/src/components/BrowserWindow'
+
+export const url = 'https://rbs.ces.myfiinet.com/rbs-admin/resource-management'
+
+<BrowserWindow url={url}>
+
+![snapshot](/assets/admin/resource-management-items.png)
+
+</BrowserWindow>
+
+RBS 管理后台资源管理区域中的 **品项** 部分允许您管理构成资源的个别品项。这为您提供了对资源组件的高度控制，有助于跟踪资产并妥善维护。
+
+要查看特定资源的品项，只需点击资源管理表中的相应行。
+
+### 管理品项（CRUD 操作）
+
+本节说明如何使用标准操作（创建、读取、更新和删除，CRUD）来管理品项。
+
+#### 创建 (➕)：新增品项
+
+使用此功能为您的资源新增品项。您需要提供品项的名称、库存数量和价格等详细信息。
+
+#### 读取 (👀)：查看品项详细信息
+
+此功能允许您查看特定品项的所有详细信息，包括其属性和当前状态。
+
+#### 更新 (🖊️)：修改品项信息
+
+需要进行更改？此功能允许您更新品项详细信息，例如数量、状况和定价。您在此处进行的更改将即时反映。
+
+<Tabs>
+  <TabItem value="general" label="一般 (⚙️)">
+
+在这里，您可以管理品项的一般设置，例如其默认属性、分类和可见性。这有助于保持品项信息的一致性。
+
+![snapshot](/assets/admin/resource-management-item-general.png)
+
+  </TabItem>
+
+  <TabItem value="affiliated" label="附属选项 (🔗)">
+
+在这里，您可以配置与品项相关的选项，例如辣度或其他可自定义的功能。
+
+![snapshot](/assets/admin/resource-management-item-options.png)
+
+  </TabItem>
+   <TabItem value="extension" label="扩展字段 (🧩)">
+
+使用此功能为品项新增自定义字段，允许您根据需要扩展品项的属性。
+
+![snapshot](/assets/admin/resource-management-item-extension.png)
+
+   </TabItem>
+</Tabs>
+
+#### 删除 (❌)：移除品项
+
+使用此功能删除不再使用或已过时的品项。
